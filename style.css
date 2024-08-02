@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+section{
+    height: 700px;
+    padding: 0;
+    margin: 0;
+}
+p{
+    color: dimgray;
+}
+
+.top-banner {
+    /* width: 100; */
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-image: url(./images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.biography {
+    /* width: 100%; */
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 10%;
+    background-image: url(./images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-work {
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
+    padding-right: 5%;
+    padding-left: 5%;
+    background-image: url(./images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.footer-banner{
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-image: url(./images/footer-bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.profile-name {
+    color: palevioletred;
+    font-size: 40px;
+    font-weight: 700;
+}
+.b-beauty {
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, salmon, palevioletred);
+}
+
+.top-left {
+    width: 40%;
+    float: left;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.top-right {
+    width: 40%;
+    float: left; 
+    padding-bottom: 5%;   
+}
+
+.top-right img {
+    width: 100%;
+}
+.bio-left {
+    width: 40%;
+    float: left;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    
+}
+
+.bio-right {
+    width: 40%;
+    float: left; 
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.bio-left img {
+    width: 100%;
+}
+
+.latest-work-data {
+    text-align: center;
+}
+.work-img{
+    width: 100%;
+    display: flex;
+}
+
+.latest-work-data img {
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 30%;
+    float: left;
+}
+
+.contact-bar {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, salmon, palevioletred);
+}
+
+#message-box{
+    color: white;
+}
+.link-mail {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;  
+}
+#footer-bottom {
+    text-align: center;
+    color: black;
+}
